@@ -1,36 +1,37 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Prologue', // <title>
-  manifestName: 'Prologue',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Liz Watkins', // <title>
+  manifestName: 'Liz Watkins',
+  manifestShortName: 'Liz Watkins', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-prologue/`, // This path is subpath of your hosting https://domain/portfolio
-  authorName: 'Anubhav',
-  heading: 'Web Developer',
+  authorName: 'Liz Watkins',
+  heading: 'Full Stack Developer',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/e-a-w',
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      icon: 'fa-linkedin',
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/eawatkins/',
     },
     {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'fa-file-pdf-o',
+      name: 'Resume',
+      url:
+        'https://www.scribd.com/document/480214701/Resume-Liz-Watkins?secret_password=qmc7MM8vuNNaSTr4QUlT',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:eawatkins.0@gmail.com',
     },
   ],
 };

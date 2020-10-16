@@ -4,6 +4,8 @@ export default function TopNav({ title, onMenuClick = () => {} }) {
   return (
     <div id="headerToggle">
       <a
+        rel="noopener noreferrer"
+        target="_blank"
         href="/#"
         className="toggle"
         onClick={e => {
