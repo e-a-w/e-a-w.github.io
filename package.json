@@ -1,14 +1,10 @@
 {
-  "name": "gatsby-starter-prologue",
+  "name": "liz-watkins-portfolio",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Prologue by HTML5 UP",
+  "description": "Liz Watkins Portfolio",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-prologue.git"
-  },
-  "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "url": "git+https://github.com/e-a-w/e-a-w.github.io.git"
   },
   "dependencies": {
     "gatsby": "^2.20.2",
@@ -38,14 +34,5 @@
     "prettier": "^1.17.0",
     "rimraf": "^3.0.2"
   },
-  "keywords": [
-    "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-prologue"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-prologue/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-prologue#readme"
+  "license": "MIT"
 }
