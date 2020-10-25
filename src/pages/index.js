@@ -7,7 +7,6 @@ import SideBar from '../components/SideBar';
 import snack from '../assets/images/snackbasket.png';
 import pet from '../assets/images/petsite.png';
 import meme from '../assets/images/memepark.png';
-import card from '../assets/images/cardgame.png';
 import figure from '../assets/images/figure.png';
 import youtube from '../assets/images/mockup.png';
 import me from '../assets/images/square.png';
@@ -75,6 +74,47 @@ const IndexPage = () => (
                   <article className="item">
                     <span className="image fit">
                       <img
+                        src="https://res.cloudinary.com/ozlizard/image/upload/v1603604017/heart2heart%20screenshots/Screen_Shot_2020-10-25_at_1.20.31_AM.png"
+                        data-attribute="SRL"
+                        alt="Heart 2 Heart"
+                      />
+                    </span>
+
+                    <header>
+                      <h3>Heart 2 Heart</h3>
+                      <p>
+                        My team's entry for the Palm Beach Tech 2020 Hackathon
+                        and Gift of Life! Heart 2 Heart is a platform for bone
+                        marrow donors and recipients of donations to connect and
+                        share their stories, with the goal of encouraging more
+                        donors to follow through with the full donation process.
+                      </p>
+                      <p>
+                        View the deployed site{' '}
+                        <a
+                          rel="noopener noreferrer"
+                          target="_blank"
+                          href="https://heart-to-heart.herokuapp.com/login"
+                        >
+                          here
+                        </a>
+                        !
+                        <br />
+                        Visit the{' '}
+                        <a
+                          rel="noopener noreferrer"
+                          target="_blank"
+                          href="https://github.com/Cal9233/heart2heart"
+                        >
+                          GitHub repo
+                        </a>
+                        !
+                      </p>
+                    </header>
+                  </article>
+                  <article className="item">
+                    <span className="image fit">
+                      <img
                         src={snack}
                         data-attribute="SRL"
                         alt="Snack Basket"
@@ -111,45 +151,6 @@ const IndexPage = () => (
                       </p>
                     </header>
                   </article>
-                  <article className="item">
-                    <span className="image fit">
-                      <img src={meme} data-attribute="SRL" alt="Meme Park" />
-                    </span>
-
-                    <header>
-                      <h3>Meme Park</h3>
-                      <p>
-                        Web app where users can search, view and share memes!
-                      </p>
-                      <p>
-                        Consulted with a UX/UI partner on site design. Used
-                        React and Bootstrap to create a front end based on that
-                        design. Built a server with Node.js and Express in order
-                        to retrieve meme data from the GIPHY API.
-                      </p>
-                      <p>
-                        View the deployed site{' '}
-                        <a
-                          rel="noopener noreferrer"
-                          target="_blank"
-                          href="https://petster-exotic.herokuapp.com/"
-                        >
-                          here
-                        </a>
-                        !
-                        <br />
-                        Visit the{' '}
-                        <a
-                          rel="noopener noreferrer"
-                          target="_blank"
-                          href="https://github.com/wyncode/C38_snakes_on_a_repo"
-                        >
-                          GitHub repo
-                        </a>
-                        !
-                      </p>
-                    </header>
-                  </article>
                 </div>
                 <div className="col-4 col-12-mobile">
                   <article className="item">
@@ -168,16 +169,10 @@ const IndexPage = () => (
                         sitters!
                       </p>
                       <p>
-                        Users can register an account, create user and pet
-                        profiles, save favorite profiles, search by location or
-                        description, contact other users by email/video call and
-                        edit a calendar.
-                      </p>
-                      <p>
-                        Built with Material-UI, the MERN tech stack and the
-                        following APIs: Sendgrid for email, Jitsi for video
-                        call, Mapbox for geolocation, Cloudinary for images,
-                        Fullcalendar.io for the calendar.
+                        Guests can view and search for profiles by keyword,
+                        while registered users can create user and pet profiles,
+                        save favorite profiles, search by geolocation, contact
+                        other users by email/video call and edit a calendar.
                       </p>
                       <p>Winner of Wyncode's Pitch Day Contest!</p>
                       <p>
@@ -288,26 +283,26 @@ const IndexPage = () => (
                   </article>
                   <article className="item">
                     <span className="image fit">
-                      <img
-                        src={card}
-                        data-attribute="SRL"
-                        alt="REPL Card Game"
-                      />
+                      <img src={meme} data-attribute="SRL" alt="Meme Park" />
                     </span>
 
                     <header>
-                      <h3>REPL Card Game</h3>
+                      <h3>Meme Park</h3>
                       <p>
-                        A Javascript text-based card game built in Node.js to
-                        play on the REPL site. Created with the npm packages
-                        chalk, readline-sync and node-cards.
+                        Web app where users can search, view and share memes!
                       </p>
                       <p>
-                        View it live{' '}
+                        Consulted with a UX/UI partner on site design. Used
+                        React and Bootstrap to create a front end based on that
+                        design. Built a server with Node.js and Express in order
+                        to retrieve meme data from the GIPHY API.
+                      </p>
+                      <p>
+                        View the deployed site{' '}
                         <a
                           rel="noopener noreferrer"
                           target="_blank"
-                          href="https://repl.it/@ewatkins/cardgame#index.js"
+                          href="https://petster-exotic.herokuapp.com/"
                         >
                           here
                         </a>
@@ -317,7 +312,7 @@ const IndexPage = () => (
                         <a
                           rel="noopener noreferrer"
                           target="_blank"
-                          href="https://github.com/e-a-w/repl-game"
+                          href="https://github.com/wyncode/C38_snakes_on_a_repo"
                         >
                           GitHub repo
                         </a>
@@ -336,25 +331,31 @@ const IndexPage = () => (
             <header>
               <h2>About Me</h2>
             </header>
-
             <span className="image featured">
               <img src={me} alt="avatar" />
             </span>
-
             <p style={{ textAlign: 'justify' }}>
               Hi! I'm Liz - a full stack developer and current teaching
-              assistant at Wyncode.
+              assistant at Wyncode, where I recently completed their full stack
+              web development program. Prior to Wyncode, I worked in retail as a
+              department manager and in human resources, but I've always loved
+              coding and had taught myself to build websites with
+              HTML/CSS/Javascript before deciding to turn that passion into a
+              career.
             </p>
             <p style={{ textAlign: 'justify' }}>
-              Before making a change into the tech industry, I was working in
-              retail as a department manager and in human resources. I've always
-              loved programming and had taught myself how to build small
-              websites with HTML/CSS/Javascript, but I really wanted to take
-              that to the next level and start a full-fledged career in
-              development. Now, after graduating Wyncode, I'm building MERN
-              stack web applications and am 100% ready to kickstart that career!
+              Recent projects have involved me participating in the Shellahacks
+              and Palm Beach Tech Hackathons, as well as working on several
+              personal projects to sharpen my skillset. I'm happiest when I'm
+              tackling a challenge, and enjoy solving fun problems and learning
+              new skills!
             </p>
-            <p style={{ textAlign: 'justify' }}>
+            <p style={{ textAlign: 'right' }}>
+              I'd love to connect about job opportunities in web or software
+              development!
+            </p>{' '}
+            <p style={{ textAlign: 'right' }}>
+              {' '}
               You can find me at:{' '}
               <a
                 rel="noopener noreferrer"
