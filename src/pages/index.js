@@ -351,10 +351,6 @@ const IndexPage = () => (
               new skills!
             </p>
             <p style={{ textAlign: 'right' }}>
-              I'd love to connect about job opportunities in web or software
-              development!
-            </p>{' '}
-            <p style={{ textAlign: 'right' }}>
               {' '}
               You can find me at:{' '}
               <a
