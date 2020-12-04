@@ -335,16 +335,15 @@ const IndexPage = () => (
               <img src={me} alt="avatar" />
             </span>
             <p style={{ textAlign: 'justify' }}>
-              Hi! I'm Liz - a full stack developer and current teaching
-              assistant at Wyncode, where I recently completed their full stack
-              web development program. Prior to Wyncode, I worked in retail as a
-              department manager and in human resources, but I've always loved
-              coding and had taught myself to build websites with
-              HTML/CSS/Javascript before deciding to turn that passion into a
-              career.
+              Hi! I'm Liz - an automation engineer at springbig, full stack
+              developer, and teaching assistant at Wyncode. Prior to my journey
+              into the tech industry, I worked in retail as a department manager
+              and in human resources, but I've always loved coding and had
+              taught myself to build websites with HTML/CSS/Javascript before
+              deciding to turn that passion into a career.
             </p>
             <p style={{ textAlign: 'justify' }}>
-              Recent projects have involved me participating in the Shellahacks
+              Recent projects have involved me participating in the Shellhacks
               and Palm Beach Tech Hackathons, as well as working on several
               personal projects to sharpen my skillset. I'm happiest when I'm
               tackling a challenge, and enjoy solving fun problems and learning
